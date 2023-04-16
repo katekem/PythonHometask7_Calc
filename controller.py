@@ -15,7 +15,7 @@ def input_second():
             break
 
 def input_operation():
-    oper = view.input_operation
+    oper = view.input_operation()
     model.set_operation(oper)
 
 def solution():
@@ -40,5 +40,5 @@ def start():
         if model.get_operation() == '=':
             view.log_off()
             break
-    input_second()
-    solution()
+        input_second()
+        solution()
