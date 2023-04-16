@@ -54,3 +54,5 @@ def division():
     global second_number
     global result
     result = first_number / second_number
+    if result == int(result):
+        result = int(result)

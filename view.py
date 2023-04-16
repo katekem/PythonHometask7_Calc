@@ -16,4 +16,10 @@ def input_operation():
 
 def print_to_console(value_text):
     print(value_text)
+
+def log_off():
+    print('До свидания!')
+
+def print_division_by_zero():
+    print('На ноль делить нельзя!')
         
